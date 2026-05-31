@@ -128,7 +128,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
               <div className="mb-8">
                 <h2 className="font-serif text-2xl font-bold text-neutral-900 mb-4">Safety & Material Breakdown</h2>
                 <div className="space-y-3">
-                  {Object.entries(product.materialBreakdown).map(([key, val]) => (
+                  {Object.entries(product.featureBreakdown).map(([key, val]) => (
                     <div key={key} className="p-4 bg-neutral-50 rounded-xl border border-neutral-100">
                       <span className="font-semibold text-neutral-900 text-sm">{key}</span>
                       <p className="text-sm text-neutral-600 mt-1">{val}</p>
