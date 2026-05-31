@@ -17,13 +17,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Verify autoprefixer installed
-        run: |
-          echo "Checking node_modules..."
-          ls node_modules/autoprefixer && echo "autoprefixer FOUND" || echo "autoprefixer NOT FOUND"
-          ls node_modules/postcss && echo "postcss FOUND" || echo "postcss NOT FOUND"
-          cat package.json | grep -A5 '"dependencies"'
-
       - name: Build
         run: npx @cloudflare/next-on-pages
 
