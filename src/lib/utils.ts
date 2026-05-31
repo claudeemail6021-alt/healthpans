@@ -1,0 +1,5 @@
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+export function cn(...inputs: ClassValue[]) { return twMerge(clsx(inputs)); }
+export function formatDate(d: string) { return new Date(d).toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"}); }
+export function amazonLink(asin: string) { return `https://www.amazon.com/dp/${asin}?tag=asotv068-20`; }
