@@ -125,6 +125,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
               </div>
 
               {/* Safety Breakdown */}
+              {product.featureBreakdown && Object.keys(product.featureBreakdown).length > 0 && (
               <div className="mb-8">
                 <h2 className="font-serif text-2xl font-bold text-neutral-900 mb-4">Safety & Material Breakdown</h2>
                 <div className="space-y-3">
@@ -136,6 +137,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
                   ))}
                 </div>
               </div>
+              )}
 
               {/* Who it's for */}
               <div className="mb-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
