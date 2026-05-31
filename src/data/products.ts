@@ -10,6 +10,7 @@ export interface Product {
   rating: number; reviewCount: number; shortDescription: string;
   keyFeatures: string[]; bestFor: string; pros: string[]; cons: string[];
   safetyProfile: string; compatibility: string[];
+  featureBreakdown: Record<string, string>;
   howToUse: string; whoItsFor: string; notFor: string;
   faq: { question: string; answer: string }[];
   featured: boolean; rank: number; imageUrl: string; category: string[];
