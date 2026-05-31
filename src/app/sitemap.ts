@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/privacy-policy`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
     { url: `${base}/terms`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
     ...products.map((p) => ({ url: `${base}/reviews/${p.slug}`, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.85 })),
-    ...["how-to-tell-if-your-pan-is-toxic","best-non-toxic-cookware-sets-2026","cast-iron-vs-ceramic-vs-stainless","carbon-steel-seasoning-guide","pfas-free-cookware-guide"]
+    ...["how-to-tell-if-your-pan-is-toxic","best-non-toxic-cookware-sets-2026","cast-iron-vs-ceramic-vs-stainless","carbon-steel-seasoning-guide","pfas-free-cookware-guide","best-non-toxic-dutch-oven-2026","replace-toxic-cookware-on-a-budget","always-pan-vs-cast-iron-2026"]
       .map((slug) => ({ url: `${base}/blog/${slug}`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 })),
   ];
 }
