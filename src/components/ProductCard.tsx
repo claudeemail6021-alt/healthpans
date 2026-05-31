@@ -16,8 +16,12 @@ export default function ProductCard({ product: p, showDetails = false }: Props) 
           <span className={`text-xs font-semibold ${p.rank === 1 ? "text-white/80" : "text-terracotta-400"}`}>{p.priceRange}</span>
         </div>
       )}
-      <div className="h-40 flex items-center justify-center" style={{background:"linear-gradient(135deg,#FAE5DA,#E5EDE5)"}}>
-        <span className="font-serif text-lg font-bold text-neutral-500">{p.brand}</span>
+      <div className="h-40 flex items-center justify-center overflow-hidden bg-cream-50" style={{background:"linear-gradient(135deg,#FAE5DA,#E5EDE5)"}}>
+        {p.imageUrl && !p.imageUrl.startsWith("/images/") ? (
+          <img src={p.imageUrl} alt={p.name} className="w-full h-full object-contain p-3" />
+        ) : (
+          <span className="font-serif text-lg font-bold text-neutral-500">{p.brand}</span>
+        )}
       </div>
       <div className="p-5 flex flex-col flex-1">
         <div className="flex items-start gap-2 mb-1">
