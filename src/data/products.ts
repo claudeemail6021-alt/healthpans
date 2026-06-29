@@ -8,7 +8,52 @@ export interface Product {
   panType: string; material: string; asin: string;
   price: string; priceRange: "Under $50" | "$50–$100" | "$100–$200" | "$200+";
   rating: number; reviewCount: number; shortDescription: string;
-  keyFeatures: string[]; bestFor: string; pros: string[]; cons: string[];
+  keyFeatures: string[
+  {
+    id: 15, slug: "staub-cast-iron-fry-pan",
+    name: "10\" Cast Iron Fry Pan", brand: "Staub", panType: "Cast Iron Fry Pan",
+    material: "Enameled Cast Iron", asin: "B00QNOMXUU",
+    price: "$160", priceRange: "$100–$200", rating: 4.7, reviewCount: 3200,
+    shortDescription: "Staub's matte black enamel fry pan brings restaurant-grade searing performance and PFAS-free safety to the stovetop. The matte enamel interior improves with every use like bare cast iron — with none of the maintenance.",
+    keyFeatures: ["Matte black enamel — develops seasoning like bare cast iron", "PFAS-free, no coatings of any kind to flake or degrade", "Made in France by master craftsmen", "Compatible with all stovetops including induction", "Oven safe to 500°F"],
+    bestFor: "Searing, browning, frying, stovetop-to-oven dishes",
+    pros: ["Matte enamel improves with use — gets better over years", "No seasoning required unlike bare cast iron", "PFAS-free: enameled cast iron is completely non-toxic", "Exceptional heat retention for perfect searing", "Made in France — Michelin kitchen standard"],
+    cons: ["Premium price ($160)", "Heavy — not ideal for those with wrist issues", "Matte interior harder to monitor browning vs. Le Creuset's light interior"],
+    safetyProfile: "100% safe. Staub's enamel contains no PTFE, PFOA, PFAS, lead, or cadmium. The matte black enamel is completely non-reactive with all foods.",
+    compatibility: ["Gas", "Electric", "Induction", "Oven (500°F)", "Broiler"],
+    howToUse: "Preheat over medium-low for 3–5 minutes. Add a small amount of oil. Staub's thick walls require lower heat than you expect — the retained heat is intense. After use, hand wash with warm water. Optionally apply a very light oil coat to the matte enamel interior to develop its seasoning.",
+    whoItsFor: "Serious home cooks who want a lifetime PFAS-free fry pan that improves with every use. Those who love the Staub cocotte and want matching fry pan performance.",
+    notFor: "Budget shoppers (Lodge enameled options are less expensive). Those who want zero maintenance — the matte enamel benefits from occasional oil care.",
+    faq: [
+      { question: "Is Staub fry pan better than Le Creuset?", answer: "Different, not necessarily better. Staub's matte interior is superior for browning and develops a natural patina. Le Creuset's light interior makes it easier to monitor browning. Both are completely non-toxic." },
+      { question: "Do I need to season a Staub enameled pan?", answer: "Not required, but a light oil treatment enhances the matte enamel over time. Unlike bare cast iron, it will not rust without oil treatment — the enamel protects the iron underneath." },
+    ],
+    featured: false, rank: 15, imageUrl: "",
+    category: ["enameled-cast-iron", "non-toxic", "premium", "french"],
+  },
+  {
+    id: 16, slug: "made-in-stainless-clad-saute",
+    name: "Stainless Clad 3-Quart Sauté Pan", brand: "Made In", panType: "Stainless Steel Sauté Pan",
+    material: "5-Ply Stainless Clad", asin: "B09L3TPQJN",
+    price: "$169", priceRange: "$100–$200", rating: 4.7, reviewCount: 2800,
+    shortDescription: "Made In's 5-ply stainless clad construction is the professional kitchen standard in an accessible format. No coatings of any kind — the most fundamentally non-toxic stainless pan available at this quality level.",
+    keyFeatures: ["5-ply construction: 3 stainless layers + 2 aluminum cores", "Zero coatings — pure stainless on all food-contact surfaces", "Made with support from Michelin-starred chefs", "Oven and broiler safe to 800°F", "Lifetime warranty"],
+    bestFor: "Sautéing, pan sauces, braising, stovetop-to-oven dishes",
+    pros: ["5-ply provides superior heat distribution vs standard 3-ply", "No coatings of any kind — absolutely zero PFAS risk", "Built with Michelin chef input for professional performance", "Extremely versatile size — the 3qt sauté is the most useful pan in a kitchen", "Lifetime warranty"],
+    cons: ["Premium price vs. budget stainless alternatives", "Requires technique — stainless sticks if not used correctly (proper preheat + oil)", "Heavier than ceramic alternatives"],
+    safetyProfile: "100% safe. 18/10 stainless steel is completely inert. The 5-ply construction uses only stainless steel and aluminum — no coatings, no PFAS, no chemicals. Even the aluminum cores are fully encased in stainless and never contact food.",
+    compatibility: ["Gas", "Electric", "Induction", "Oven (800°F)", "Broiler", "Dishwasher"],
+    howToUse: "Preheat 2–3 minutes over medium heat. Use the water drop test — drops should dance and vaporize immediately, not sit. Add oil after the pan is hot. Food naturally releases after the initial sear is complete — don't force it. Deglaze with liquid for exceptional pan sauces from the fond (browned bits).",
+    whoItsFor: "Serious home cooks and culinary enthusiasts who want professional-grade, non-toxic stainless with maximum heat distribution. Those ready to learn proper stainless technique.",
+    notFor: "Those expecting non-stick performance without technique. Complete beginners who have not cooked with stainless before.",
+    faq: [
+      { question: "Why 5-ply instead of 3-ply?", answer: "5-ply adds two more aluminum core layers, providing more even heat distribution across the entire pan surface — not just the base. This matters most for sautéing and sauce-making where hot spots cause uneven cooking." },
+      { question: "How does Made In compare to All-Clad?", answer: "Made In and All-Clad are the two most respected stainless brands. Made In uses 5-ply vs All-Clad D3's 3-ply (or D5's 5-ply). At similar price points, Made In's 5-ply frequently performs comparably or better in blind cooking tests. Both are excellent, zero-coating, lifetime investment pans." },
+    ],
+    featured: false, rank: 16, imageUrl: "",
+    category: ["stainless-steel", "non-toxic", "professional", "5-ply"],
+  },
+]; bestFor: string; pros: string[]; cons: string[];
   safetyProfile: string; compatibility: string[];
   featureBreakdown?: Record<string, string>;
   howToUse: string; whoItsFor: string; notFor: string;
