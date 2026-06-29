@@ -19,7 +19,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: post.frontmatter.title,
     description: post.frontmatter.description,
     alternates: { canonical: `https://healthpans.com/blog/${slug}` },
-    openGraph: { title: post.frontmatter.title, description: post.frontmatter.description, type: "article", publishedTime: post.frontmatter.date },
+    openGraph: {
+      title: post.frontmatter.title,
+      description: post.frontmatter.description,
+      type: "article",
+      publishedTime: post.frontmatter.date,
+    },
   };
 }
 
@@ -34,37 +39,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     headline: post.frontmatter.title,
     description: post.frontmatter.description,
     datePublished: post.frontmatter.date,
-    author: { "@type": "Person", name: post.frontmatter.author },
-    publisher: { "@type": "Organization", name: "HealthPans", url: "https://healthpans.com" },
-    url: `https://healthpans.com/blog/${slug}`,
-  };
-
-
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": frontmatter.title,
-    "description": frontmatter.description,
-    "datePublished": frontmatter.date,
-    "dateModified": frontmatter.date,
-    "author": {
+    dateModified: post.frontmatter.date,
+    author: {
       "@type": "Organization",
-      "name": frontmatter.author || "HealthPans Editorial Team",
-      "url": "https://healthpans.com/about"
+      name: post.frontmatter.author || "HealthPans Editorial Team",
+      url: "https://healthpans.com/about",
     },
-    "publisher": {
+    publisher: {
       "@type": "Organization",
-      "name": "HealthPans.com",
-      "url": "https://healthpans.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://healthpans.com/og-default.png"
-      }
+      name: "HealthPans.com",
+      url: "https://healthpans.com",
+      logo: { "@type": "ImageObject", url: "https://healthpans.com/og-default.png" },
     },
-    "mainEntityOfPage": {
+    mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://healthpans.com/blog/${params.slug}`
-    }
+      "@id": `https://healthpans.com/blog/${slug}`,
+    },
   };
 
   return (
@@ -92,8 +82,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <span className="flex items-center gap-1"><Calendar className="h-4 w-4"/>{formatDate(post.frontmatter.date)}</span>
             <span className="flex items-center gap-1"><Clock className="h-4 w-4"/>{post.frontmatter.readTime}</span>
           </div>
-          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <article className="prose">
+          <article className="prose">
             <MDXRemote source={post.content} />
           </article>
           <div className="mt-12 pt-8 border-t border-neutral-100">
