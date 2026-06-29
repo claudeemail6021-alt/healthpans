@@ -39,6 +39,34 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     url: `https://healthpans.com/blog/${slug}`,
   };
 
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": frontmatter.title,
+    "description": frontmatter.description,
+    "datePublished": frontmatter.date,
+    "dateModified": frontmatter.date,
+    "author": {
+      "@type": "Organization",
+      "name": frontmatter.author || "HealthPans Editorial Team",
+      "url": "https://healthpans.com/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "HealthPans.com",
+      "url": "https://healthpans.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://healthpans.com/og-default.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://healthpans.com/blog/${params.slug}`
+    }
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
@@ -64,7 +92,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <span className="flex items-center gap-1"><Calendar className="h-4 w-4"/>{formatDate(post.frontmatter.date)}</span>
             <span className="flex items-center gap-1"><Clock className="h-4 w-4"/>{post.frontmatter.readTime}</span>
           </div>
-          <article className="prose">
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <article className="prose">
             <MDXRemote source={post.content} />
           </article>
           <div className="mt-12 pt-8 border-t border-neutral-100">
