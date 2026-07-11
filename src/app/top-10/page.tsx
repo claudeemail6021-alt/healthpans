@@ -110,6 +110,100 @@ export default function Top10Page() {
           </div>
         </div>
       </section>
+
+      {/* Buying Guide */}
+      <section className="section-padding bg-neutral-50">
+        <div className="container-custom max-w-4xl">
+          <h2 className="font-serif text-3xl font-bold text-neutral-900 mb-8 text-center">
+            How to Choose Non-Toxic Cookware
+          </h2>
+          <div className="space-y-6">
+
+            <div className="bg-white rounded-2xl border border-neutral-200 p-6">
+              <h3 className="font-bold text-neutral-900 text-lg mb-3">1. &ldquo;PFOA-Free&rdquo; Is Not Enough — Here&apos;s What to Look For Instead</h3>
+              <p className="text-neutral-700 leading-relaxed">
+                The most important piece of cookware safety knowledge in 2026: &ldquo;PFOA-free&rdquo; means one specific chemical was removed from the manufacturing process. It does not mean the pan is free of PTFE (the actual non-stick coating), other PFAS chemicals (there are over 12,000 in the class), lead, cadmium, or any other concerning substances. PFOA was voluntarily phased out by manufacturers in 2013 under EPA pressure — so virtually all non-stick cookware today is PFOA-free by default. The marketing claim is nearly meaningless. What to look for instead: &ldquo;PFAS-free&rdquo; (the full chemical class), &ldquo;PTFE-free&rdquo; (the actual non-stick polymer), third-party testing certificates (Intertek, SGS), or materials with no coatings whatsoever (cast iron, carbon steel, stainless steel).
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl border border-neutral-200 p-6">
+              <h3 className="font-bold text-neutral-900 text-lg mb-3">2. The Material Guide: What Each Type Does Best</h3>
+              <p className="text-neutral-700 leading-relaxed">
+                No single cookware material does everything well. <strong>Cast iron</strong> (Lodge, Field Company) excels at searing, oven use, and campfire cooking — zero coatings, improves with age, lasts generations. <strong>Carbon steel</strong> (Made In, Lodge) is lighter than cast iron with similar non-toxic credentials, preferred in professional kitchens for stovetop sautéing. <strong>Enameled cast iron</strong> (Lodge, Le Creuset, Staub) brings cast iron&apos;s heat retention with a porcelain coating that&apos;s non-reactive with acidic foods — ideal for braises, soups, and Dutch oven use. <strong>Ceramic non-stick</strong> (GreenPan, Caraway) provides familiar non-stick performance without PFAS — at the cost of a coating that degrades over 2–4 years. <strong>Stainless steel</strong> (All-Clad, Made In) has zero coatings, lasts forever, and produces the best sear — but requires technique to prevent sticking. The best non-toxic kitchen uses 2–3 materials for different jobs rather than seeking one pan that does everything.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl border border-neutral-200 p-6">
+              <h3 className="font-bold text-neutral-900 text-lg mb-3">3. Lifetime Pans vs. Replacement Pans: The Real Cost Calculation</h3>
+              <p className="text-neutral-700 leading-relaxed">
+                Non-toxic cookware divides into two fundamentally different economic models. Lifetime pans — cast iron, carbon steel, stainless steel, enameled cast iron — cost more upfront but never need replacing. A $30 Lodge cast iron skillet or a $165 All-Clad stainless pan, properly cared for, can realistically last 50+ years. Replacement pans — ceramic non-stick — cost less upfront but need replacement every 2–4 years as the coating degrades. Over 10 years, a quality ceramic set purchased twice costs more than a lifetime cast iron and stainless setup purchased once. If you&apos;re making a long-term investment, cast iron and stainless steel are the economically rational choices. Ceramic non-stick makes sense as a transitional option while learning new cooking techniques, or for specific tasks (eggs, delicate fish) where you want genuine non-stick performance without PFAS.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl border border-neutral-200 p-6">
+              <h3 className="font-bold text-neutral-900 text-lg mb-3">4. Making the Switch from Non-Stick: The Transition Guide</h3>
+              <p className="text-neutral-700 leading-relaxed">
+                The biggest obstacle to switching from Teflon to non-toxic cookware is technique. Most people who try cast iron or stainless and conclude it &ldquo;doesn&apos;t work&rdquo; are applying non-stick habits to materials that require different approaches. The key adjustments: preheat properly (cast iron needs 5–8 minutes over medium, stainless needs 2–3 minutes until the water drop test confirms readiness). Use oil before adding food — non-toxic pans require oil for every cooking session. Don&apos;t force food that sticks — a proper sear on stainless will release naturally when done. For eggs and delicate fish where you genuinely need non-stick performance, keep one ceramic pan for those tasks while using cast iron and stainless for everything else. See our guide: <Link href="/blog/cast-iron-beginner-guide" className="text-terracotta-600 underline">The Complete Beginner&apos;s Guide to Cast Iron →</Link>
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl border border-neutral-200 p-6">
+              <h3 className="font-bold text-neutral-900 text-lg mb-3">5. What to Buy First (If Starting From Scratch)</h3>
+              <p className="text-neutral-700 leading-relaxed">
+                If you&apos;re replacing your cookware and can only buy one or two pieces to start, this is the sequence we recommend. First: a <strong>12-inch Lodge cast iron skillet ($30)</strong> — handles 80% of stovetop cooking tasks, zero coatings, completely non-toxic, works on all heat sources including induction. Second: a <strong>GreenPan ceramic non-stick fry pan ($45–60)</strong> for eggs and delicate fish where you want non-stick performance without PFAS. Third, when budget allows: a <strong>Lodge or Le Creuset enameled Dutch oven</strong> for soups, braises, and one-pot meals. This three-piece setup covers virtually every cooking need at every price point, with complete PFAS-free safety across all three.
+              </p>
+            </div>
+          </div>
+
+          {/* FAQ */}
+          <div className="mt-12">
+            <h2 className="font-serif text-2xl font-bold text-neutral-900 mb-6">Frequently Asked Questions</h2>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                { "@type": "Question", name: "Is all non-stick cookware toxic?", acceptedAnswer: { "@type": "Answer", text: "Traditional non-stick cookware coated with PTFE (Teflon) is generally safe when used correctly at normal cooking temperatures. Problems occur when the coating is overheated above 500°F, scratched, or worn. Modern PFAS-free ceramic alternatives (GreenPan Thermolon, Caraway) eliminate the fluoropolymer coating entirely. Cookware with no coatings at all — cast iron, carbon steel, stainless steel — has zero coating-related safety concerns." } },
+                { "@type": "Question", name: "What is the safest cookware material?", acceptedAnswer: { "@type": "Answer", text: "Cast iron and carbon steel have the simplest and most inert composition — just iron (and a small percentage of carbon in carbon steel). They have no coatings, no PFAS, and have been used safely for centuries. 100% ceramic (like Xtrema) is technically the most chemically inert option, testing below detectable limits for all heavy metals. Stainless steel (18/10) is completely non-reactive for virtually all cooking." } },
+                { "@type": "Question", name: "Does ceramic cookware last as long as cast iron?", acceptedAnswer: { "@type": "Answer", text: "No — ceramic coatings degrade over 2–4 years with regular use, while cast iron and stainless steel last indefinitely with proper care. Ceramic's advantage is familiar non-stick performance without PFAS. Cast iron's advantage is permanence — it improves with use and never wears out. The choice depends on whether you prioritize non-stick performance (ceramic) or lifetime durability and zero coating concerns (cast iron/stainless)." } },
+                { "@type": "Question", name: "Can I use metal utensils on non-toxic cookware?", acceptedAnswer: { "@type": "Answer", text: "On cast iron, carbon steel, and stainless steel — yes, metal utensils are perfectly safe. On ceramic non-stick, metal utensils scratch and degrade the coating, significantly shortening its lifespan. On enameled cast iron, metal utensils can chip the enamel over time — silicone or wooden utensils are preferred. Always match your utensil material to the cooking surface to maximize longevity." } },
+              ]
+            }) }} />
+            <div className="space-y-4">
+              {[
+                { q: "Is all non-stick cookware toxic?", a: "Traditional non-stick coated with PTFE (Teflon) is generally safe at normal cooking temperatures. Problems occur when overheated above 500°F or when the coating is scratched and degraded. Modern PFAS-free ceramic alternatives (GreenPan Thermolon, Caraway) eliminate the fluoropolymer entirely. Cookware with no coatings — cast iron, carbon steel, stainless steel — has zero coating-related safety concerns." },
+                { q: "What is the safest cookware material?", a: "Cast iron and carbon steel have the simplest composition — just iron, no coatings, no PFAS, used safely for centuries. 100% ceramic (Xtrema) is technically the most chemically inert, testing below detectable limits for all heavy metals. Stainless steel (18/10) is completely non-reactive for virtually all cooking. All three are excellent choices." },
+                { q: "Does ceramic cookware last as long as cast iron?", a: "No — ceramic coatings degrade over 2–4 years with regular use. Cast iron and stainless steel last indefinitely with proper care. Ceramic's advantage is non-stick performance without PFAS; cast iron's advantage is permanence. The right choice depends on whether you prioritize non-stick convenience (ceramic) or lifetime durability (cast iron/stainless)." },
+                { q: "Can I use metal utensils on non-toxic cookware?", a: "On cast iron, carbon steel, and stainless steel — yes, metal utensils are completely safe. On ceramic non-stick, metal utensils scratch and degrade the coating, shortening its lifespan significantly. On enameled cast iron, metal utensils can chip the enamel over time. Match your utensil choice to the cooking surface material." },
+              ].map((item, i) => (
+                <details key={i} className="bg-white border border-neutral-200 rounded-xl p-5 group">
+                  <summary className="font-semibold text-neutral-900 cursor-pointer list-none flex justify-between items-center">
+                    {item.q}
+                    <span className="text-terracotta-500 text-lg group-open:rotate-180 transition-transform ml-2 flex-shrink-0">▾</span>
+                  </summary>
+                  <p className="mt-3 text-sm text-neutral-600 leading-relaxed">{item.a}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+
+          {/* Related reading */}
+          <div className="mt-12">
+            <h2 className="font-serif text-2xl font-bold text-neutral-900 mb-6">Related Guides</h2>
+            <div className="grid sm:grid-cols-3 gap-4">
+              {[
+                { href: "/blog/is-your-cookware-toxic", title: "Is Your Cookware Toxic? 7 Warning Signs" },
+                { href: "/blog/cast-iron-beginner-guide", title: "The Complete Beginner's Guide to Cast Iron" },
+                { href: "/blog/cast-iron-vs-ceramic-vs-stainless", title: "Cast Iron vs Ceramic vs Stainless: Full Comparison" },
+              ].map((link) => (
+                <Link key={link.href} href={link.href} className="block p-4 rounded-xl border border-neutral-200 hover:border-terracotta-300 hover:bg-terracotta-50 transition-colors">
+                  <p className="text-sm font-semibold text-neutral-800">{link.title}</p>
+                  <p className="text-xs text-terracotta-600 mt-1">Read guide →</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
