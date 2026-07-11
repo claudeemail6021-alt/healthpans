@@ -12,6 +12,9 @@ const blogSlugs = [
   "always-pan-vs-cast-iron-2026",
   "is-your-cookware-toxic",
   "cast-iron-beginner-guide",
+  "stainless-steel-vs-ceramic-cookware",
+  "best-pans-for-induction-cooktop",
+  "non-toxic-cookware-gift-guide-2026",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
