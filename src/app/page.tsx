@@ -27,7 +27,7 @@ const trustBadges = [
   { icon: ShieldCheck, label: "PFAS-Free Verified", desc: "We confirm every pan is free from harmful forever chemicals" },
   { icon: FlaskConical, label: "Science-Backed", desc: "Reviews grounded in toxicology and material safety research" },
   { icon: Award, label: "Independently Tested", desc: "No brand sponsorships — only honest, unbiased recommendations" },
-  { icon: BookOpen, label: "Expert Reviewed", desc: "Evaluated by cookware specialists and health researchers" },
+  { icon: BookOpen, label: "Research-Based", desc: "Evaluated using published safety data, materials science, and third-party certifications" },
 ];
 
 const materials = [
