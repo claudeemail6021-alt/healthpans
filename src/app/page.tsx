@@ -10,7 +10,7 @@ import NewsletterSignup from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
   title: "Best Non-Toxic, PFAS-Free Cookware Reviews 2026 | HealthPans",
-  description: "We test and rank the safest non-toxic cookware available. Expert reviews of PFAS-free ceramic, cast iron, carbon steel, and stainless steel pans.",
+  description: "We research and rank the safest non-toxic cookware available. Comparisons of PFAS-free ceramic, cast iron, carbon steel, and stainless steel pans.",
   alternates: { canonical: "https://healthpans.com" },
 };
 
@@ -26,7 +26,7 @@ const jsonLd = {
 const trustBadges = [
   { icon: ShieldCheck, label: "PFAS-Free Verified", desc: "We confirm every pan is free from harmful forever chemicals" },
   { icon: FlaskConical, label: "Science-Backed", desc: "Reviews grounded in toxicology and material safety research" },
-  { icon: Award, label: "Independently Tested", desc: "No brand sponsorships — only honest, unbiased recommendations" },
+  { icon: Award, label: "Independently Researched", desc: "No brand sponsorships — only honest, unbiased recommendations" },
   { icon: BookOpen, label: "Research-Based", desc: "Evaluated using published safety data, materials science, and third-party certifications" },
 ];
 
@@ -53,7 +53,7 @@ export default async function HomePage() {
             Cook Safely.<br /><span className="text-terracotta-500">Without Compromise.</span>
           </h1>
           <p className="text-lg text-neutral-600 max-w-2xl mx-auto leading-relaxed mb-10">
-            We independently review and rank the best PFAS-free, non-toxic cookware. No sponsored content — just honest research to help you cook healthier meals.
+            We independently research and rank the best PFAS-free, non-toxic cookware. No sponsored content — just honest research to help you cook healthier meals.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/top-10" className="px-8 py-3.5 bg-terracotta-500 text-white font-bold rounded-full hover:bg-terracotta-600 transition-colors shadow-md">See Our Top 10 Picks →</Link>
