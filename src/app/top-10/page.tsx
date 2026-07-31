@@ -8,7 +8,7 @@ import { amazonLink } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "10 Best Non-Toxic, PFAS-Free Cookware Sets & Pans (2026)",
-  description: "Our expert-ranked top 10 non-toxic cookware picks for 2026. Tested and verified PFAS-free — cast iron, ceramic, carbon steel, and stainless options.",
+  description: "Our highly-rated top 10 non-toxic cookware picks for 2026. Tested and verified PFAS-free — cast iron, ceramic, carbon steel, and stainless options.",
   alternates: { canonical: "https://healthpans.com/top-10" },
 };
 
@@ -36,7 +36,7 @@ export default function Top10Page() {
         <div className="container-custom text-center">
           <span className="inline-block px-4 py-1.5 bg-terracotta-100 text-terracotta-700 text-xs font-bold uppercase tracking-wider rounded-full mb-4">2026 Rankings</span>
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-neutral-900 mb-4">10 Best Non-Toxic Cookware Picks</h1>
-          <p className="text-lg text-neutral-600 max-w-2xl mx-auto mb-4">Every pan on this list is verified PFAS-free. We evaluated safety certifications, materials data, durability reports, and real-world cooking performance from verified long-term users.</p>
+          <p className="text-lg text-neutral-600 max-w-2xl mx-auto mb-4">Every pan on this list is verified PFAS-free. Key criteria included safety certifications, materials data, durability reports, and real-world cooking performance from verified long-term users.</p>
           <AffiliateDisclosure />
         </div>
       </section>
