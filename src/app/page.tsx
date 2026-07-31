@@ -19,14 +19,14 @@ const jsonLd = {
   "@type": "WebSite",
   name: "HealthPans",
   url: "https://healthpans.com",
-  description: "Independent reviews of the best non-toxic, PFAS-free cookware.",
+  description: "Browse and compare popular non-toxic, PFAS-free cookware.",
   potentialAction: { "@type": "SearchAction", target: "https://healthpans.com/reviews/{search_term_string}", "query-input": "required name=search_term_string" },
 };
 
 const trustBadges = [
   { icon: ShieldCheck, label: "PFAS-Free Verified", desc: "We confirm every pan is free from harmful forever chemicals" },
   { icon: FlaskConical, label: "Science-Backed", desc: "Reviews grounded in toxicology and material safety research" },
-  { icon: Award, label: "Independently Researched", desc: "No brand sponsorships — only honest, unbiased recommendations" },
+  { icon: Award, label: "Independently Compiled", desc: "No brand sponsorships — only honest, unbiased recommendations" },
   { icon: BookOpen, label: "Research-Based", desc: "Evaluated using published safety data, materials science, and third-party certifications" },
 ];
 
