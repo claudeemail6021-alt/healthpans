@@ -9,8 +9,8 @@ import BlogCard from "@/components/BlogCard";
 import NewsletterSignup from "@/components/NewsletterSignup";
 
 export const metadata: Metadata = {
-  title: "Best Non-Toxic, PFAS-Free Cookware Reviews 2026 | HealthPans",
-  description: "We research and rank the safest non-toxic cookware available. Comparisons of PFAS-free ceramic, cast iron, carbon steel, and stainless steel pans.",
+  title: "Non-Toxic, PFAS-Free Cookware 2026 — Compare Popular Options | HealthPans",
+  description: "Browse and compare popular non-toxic, PFAS-free cookware. Compare PFAS-free ceramic, cast iron, carbon steel, and stainless steel pans.",
   alternates: { canonical: "https://healthpans.com" },
 };
 
