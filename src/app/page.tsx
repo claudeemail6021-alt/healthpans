@@ -60,8 +60,8 @@ export default async function HomePage() {
             <Link href="/blog/pfas-free-cookware-guide" className="px-8 py-3.5 bg-white text-neutral-700 font-semibold rounded-full border border-neutral-200 hover:border-terracotta-300 transition-colors">What Is PFAS? Learn More</Link>
           </div>
           <div className="mt-8 flex items-center justify-center gap-6 text-sm text-neutral-500">
-            <span>✓ 8 pans tested</span>
-            <span>✓ 100% PFAS-free picks</span>
+            <span>✓ PFAS-free picks only</span>
+            <span>✓ Research-based information</span>
             <span>✓ No affiliate bias</span>
           </div>
         </div>
