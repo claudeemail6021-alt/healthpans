@@ -80,7 +80,7 @@ export const products: Product[] = [
     faq: [
       { question: "What is the difference between cast iron and carbon steel?", answer: "Both are PFAS-free, improve with seasoning, and last a lifetime. Carbon steel is thinner (lighter, more responsive), heats more evenly, and is easier to maneuver. Cast iron is thicker (better heat retention, better for oven use), heavier, and more affordable." },
     ],
-    featured: true, rank: 3, imageUrl: "",
+    featured: true, rank: 3, imageUrl: "https://m.media-amazon.com/images/I/61n5i+i9yYL._AC_SL1000_.jpg",
     category: ["carbon-steel", "non-toxic", "professional"],
   },
   {
