@@ -164,7 +164,7 @@ export const products: Product[] = [
     faq: [
       { question: "What makes Zwilling's coating more scratch-resistant?", answer: "Zwilling reinforces their ceramic with granite-derived mineral particles dispersed throughout the ceramic matrix, making the surface measurably harder." },
     ],
-    featured: true, rank: 7, imageUrl: "",
+    featured: true, rank: 7, imageUrl: "https://m.media-amazon.com/images/I/71236ve1MkL._AC_SX679_.jpg",
     category: ["ceramic", "non-toxic", "induction", "german"],
   },
   {
