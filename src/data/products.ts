@@ -297,7 +297,7 @@ export const products: Product[] = [
     id: 14, slug: "emile-henry-round-dutch-oven",
     name: "4.2-Quart Round Dutch Oven — Burgundy", brand: "Emile Henry", panType: "100% Ceramic Dutch Oven",
     material: "100% Pure Ceramic (no metal core)", asin: "B00T4AO30A",
-    price: "$170", priceRange: "$100–$200", rating: 4.7, reviewCount: 1400,
+    price: "$170", priceRange: "$100–$200", rating: 4.2, reviewCount: 668,
     shortDescription: "The most chemically inert cookware available without a prescription, in Dutch oven form. Emile Henry's Flame ceramic is 100% ceramic — no metal core, no coatings, no PFAS — handcrafted in France since 1850 and rated for direct stovetop use up to 930°F.",
     keyFeatures: ["100% pure ceramic — not ceramic-coated, ceramic through and through", "Zero metal content — no lead, cadmium, or nickel in the glaze or clay", "Rated for stovetop, oven, microwave, dishwasher, freezer, and BBQ grill", "Direct freezer-to-hot-oven safe thanks to thermal shock resistance", "10-year manufacturer warranty"],
     bestFor: "Slow-cooking, braising, stews, soups, and one-pot meals for those avoiding metal cookware entirely",
@@ -311,7 +311,7 @@ export const products: Product[] = [
     faq: [
       { question: "How does this compare to the enameled cast iron Dutch ovens on this list (Lodge, Le Creuset)?", answer: "Enameled cast iron has an iron core beneath the enamel coating — completely safe, but not metal-free. Emile Henry's Flame ceramic has zero metal content anywhere in its construction, which matters specifically for those with metal sensitivities. Cast iron retains heat longer once hot; ceramic heats more gently and evenly throughout." },
     ],
-    featured: true, rank: 14, imageUrl: "https://www.emilehenryusa.com/cdn/shop/files/4525_4540_4553_34_Burgundy_RoundStewpot_FlameCeramic__1.png?v=1726857066&width=1200",
+    featured: true, rank: 14, imageUrl: "https://m.media-amazon.com/images/I/41x8XEXm5eL._AC_SX679_.jpg",
     category: ["100-percent-ceramic", "non-toxic", "ultra-safe", "dutch-oven"],
   },
   {
