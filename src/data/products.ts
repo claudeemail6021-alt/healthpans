@@ -316,11 +316,11 @@ export const products: Product[] = [
   },
   {
     id: 15, slug: "staub-cast-iron-fry-pan",
-    name: "10\" Cast Iron Fry Pan", brand: "Staub", panType: "Cast Iron Fry Pan",
-    material: "Enameled Cast Iron", asin: "B00QNOMXUU",
+    name: "11-Inch Traditional Deep Skillet — Pistachio", brand: "Staub", panType: "Cast Iron Fry Pan",
+    material: "Enameled Cast Iron", asin: "B0GXLM8QF2",
     price: "$160", priceRange: "$100–$200", rating: 4.7, reviewCount: 3200,
-    shortDescription: "Staub's matte black enamel fry pan brings restaurant-grade searing performance and PFAS-free safety to the stovetop. The matte enamel interior improves with every use like bare cast iron — with none of the maintenance.",
-    keyFeatures: ["Matte black enamel — develops seasoning like bare cast iron", "PFAS-free, no coatings of any kind to flake or degrade", "Made in France by master craftsmen", "Compatible with all stovetops including induction", "Oven safe to 500°F"],
+    shortDescription: "Staub's enameled cast iron deep skillet brings restaurant-grade searing performance and PFAS-free safety to the stovetop. The matte enamel interior improves with every use like bare cast iron — with none of the maintenance.",
+    keyFeatures: ["Matte enamel interior — develops seasoning like bare cast iron", "PFAS-free, no coatings of any kind to flake or degrade", "Made in France by master craftsmen", "Compatible with all stovetops including induction", "Oven safe to 500°F"],
     bestFor: "Searing, browning, frying, stovetop-to-oven dishes",
     pros: ["Matte enamel improves with use — gets better over years", "No seasoning required unlike bare cast iron", "PFAS-free: enameled cast iron is completely non-toxic", "Exceptional heat retention for perfect searing", "Made in France — Michelin kitchen standard"],
     cons: ["Premium price ($160)", "Heavy — not ideal for those with wrist issues", "Matte interior harder to monitor browning vs. Le Creuset's light interior"],
@@ -332,7 +332,7 @@ export const products: Product[] = [
     faq: [
       { question: "Is Staub fry pan better than Le Creuset?", answer: "Different, not necessarily better. Staub's matte interior is superior for browning and develops a natural patina. Le Creuset's light interior makes it easier to monitor browning. Both are completely non-toxic." },
     ],
-    featured: false, rank: 15, imageUrl: "",
+    featured: false, rank: 15, imageUrl: "https://m.media-amazon.com/images/I/616jdnu4VuL._AC_SL1500_.jpg",
     category: ["enameled-cast-iron", "non-toxic", "premium", "french"],
   },
   {
