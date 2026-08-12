@@ -269,7 +269,7 @@ export const products: Product[] = [
     faq: [
       { question: "Staub vs Le Creuset — which is better?", answer: "Neither is objectively better — they're different. Staub's self-basting lid and matte black searing surface make it better for braises. Le Creuset's sand interior makes it better for recipes where you need to monitor browning." },
     ],
-    featured: true, rank: 12, imageUrl: "",
+    featured: true, rank: 12, imageUrl: "https://m.media-amazon.com/images/I/71Rl07oxKLL._AC_SX679_.jpg",
     category: ["dutch-oven", "enameled-cast-iron", "non-toxic", "premium", "french"],
   },
   {
