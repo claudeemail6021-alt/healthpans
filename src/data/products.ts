@@ -169,8 +169,8 @@ export const products: Product[] = [
   },
   {
     id: 8, slug: "lodge-carbon-steel-skillet",
-    name: "10-Inch Seasoned Carbon Steel Skillet", brand: "Lodge", panType: "Carbon Steel Skillet",
-    material: "Pre-Seasoned Carbon Steel", asin: "B00GRSXD8A",
+    name: "12-Inch Seasoned Carbon Steel Skillet", brand: "Lodge", panType: "Carbon Steel Skillet",
+    material: "Pre-Seasoned Carbon Steel", asin: "B005U93RYW",
     price: "$42", priceRange: "Under $50", rating: 4.5, reviewCount: 7800,
     shortDescription: "Lodge's entry into carbon steel delivers the same trusted non-toxic promise as their cast iron at a lower weight — a perfect starter carbon steel pan under $45.",
     keyFeatures: ["100% natural carbon steel — no PFAS coatings", "Pre-seasoned with 100% vegetable oil", "Significantly lighter than cast iron", "Dual pour spouts for easy draining", "Made in the USA"],
@@ -185,7 +185,7 @@ export const products: Product[] = [
     faq: [
       { question: "How is this different from Lodge cast iron?", answer: "Both are Lodge, both are non-toxic, both are made in USA. Carbon steel is thinner (lighter, faster to heat), harder (develops a smoother seasoning surface over time), and works better for quick stovetop cooking." },
     ],
-    featured: true, rank: 8, imageUrl: "",
+    featured: true, rank: 8, imageUrl: "https://m.media-amazon.com/images/I/61oAv7uaOIL._AC_SX679_.jpg",
     category: ["carbon-steel", "non-toxic", "budget", "made-in-usa"],
   },
   {
