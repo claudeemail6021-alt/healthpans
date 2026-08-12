@@ -143,7 +143,7 @@ export const products: Product[] = [
     faq: [
       { question: "Is Field Company worth 5× the price of Lodge?", answer: "If you cook with cast iron daily and care about weight and fast non-stick development, yes. If you just want a non-toxic pan that works perfectly, Lodge is one of the best values in all of cookware." },
     ],
-    featured: true, rank: 6, imageUrl: "",
+    featured: true, rank: 6, imageUrl: "https://m.media-amazon.com/images/I/51YX3WhMIqL._AC_SX679_.jpg",
     category: ["cast-iron", "non-toxic", "premium", "made-in-usa"],
   },
   {
