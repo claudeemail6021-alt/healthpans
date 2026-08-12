@@ -338,7 +338,7 @@ export const products: Product[] = [
   {
     id: 16, slug: "made-in-stainless-clad-saute",
     name: "Stainless Clad 3-Quart Sauté Pan", brand: "Made In", panType: "Stainless Steel Sauté Pan",
-    material: "5-Ply Stainless Clad", asin: "B09L3TPQJN",
+    material: "5-Ply Stainless Clad", asin: "B09R2K6HBN",
     price: "$169", priceRange: "$100–$200", rating: 4.7, reviewCount: 2800,
     shortDescription: "Made In's 5-ply stainless clad construction is the professional kitchen standard in an accessible format. No coatings of any kind — the most fundamentally non-toxic stainless pan available at this quality level.",
     keyFeatures: ["5-ply construction: 3 stainless layers + 2 aluminum cores", "Zero coatings — pure stainless on all food-contact surfaces", "Made with support from Michelin-starred chefs", "Oven and broiler safe to 800°F", "Lifetime warranty"],
@@ -353,7 +353,7 @@ export const products: Product[] = [
     faq: [
       { question: "Why 5-ply instead of 3-ply?", answer: "5-ply adds two more aluminum core layers, providing more even heat distribution across the entire pan surface — not just the base. This matters most for sautéing and sauce-making where hot spots cause uneven cooking." },
     ],
-    featured: false, rank: 16, imageUrl: "",
+    featured: false, rank: 16, imageUrl: "https://m.media-amazon.com/images/I/71s3bj1OPiL._AC_SX679_.jpg",
     category: ["stainless-steel", "non-toxic", "professional", "5-ply"],
   },
 ];
