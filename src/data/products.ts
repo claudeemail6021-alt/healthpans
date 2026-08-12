@@ -248,7 +248,7 @@ export const products: Product[] = [
     faq: [
       { question: "Does the Always Pan actually replace 10 pieces of cookware?", answer: "Mostly yes — it genuinely handles frying, sautéing, steaming, boiling, braising, and storage. You'll still want a dedicated cast iron or carbon steel pan for high-heat searing." },
     ],
-    featured: true, rank: 11, imageUrl: "",
+    featured: true, rank: 11, imageUrl: "https://m.media-amazon.com/images/I/711izfLZ8xL._AC_SX679_.jpg",
     category: ["ceramic", "non-toxic", "multi-purpose", "aesthetic"],
   },
   {
