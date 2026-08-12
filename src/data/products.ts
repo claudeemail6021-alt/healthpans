@@ -59,7 +59,7 @@ export const products: Product[] = [
       { question: "Is ceramic coating actually PFAS-free?", answer: "Yes — genuine ceramic coatings like GreenPan's Thermolon™ are silica-based (sand-derived), not fluoropolymer-based. They contain no PTFE, PFOA, or related PFAS chemicals." },
       { question: "How long does ceramic non-stick last?", answer: "With proper care, ceramic non-stick typically lasts 2–4 years before noticeably degrading." },
     ],
-    featured: true, rank: 2, imageUrl: "",
+    featured: true, rank: 2, imageUrl: "https://www.greenpan.us/cdn/shop/products/CC000043-001-1.jpg?v=1677790970",
     category: ["ceramic", "non-toxic", "non-stick", "set"],
   },
   {
