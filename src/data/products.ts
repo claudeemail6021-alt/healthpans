@@ -227,7 +227,7 @@ export const products: Product[] = [
     faq: [
       { question: "Is the Le Creuset lifetime warranty worth it?", answer: "Yes, if you cook regularly. Le Creuset replaces any pot with manufacturing defects for life. The amortized cost per year is often lower than budget alternatives that need replacement." },
     ],
-    featured: true, rank: 10, imageUrl: "",
+    featured: true, rank: 10, imageUrl: "https://m.media-amazon.com/images/I/61hV4YWJ+rL._AC_SX679_.jpg",
     category: ["dutch-oven", "enameled-cast-iron", "non-toxic", "premium", "french"],
   },
   {
