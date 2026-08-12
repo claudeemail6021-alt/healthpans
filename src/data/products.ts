@@ -122,7 +122,7 @@ export const products: Product[] = [
     faq: [
       { question: "Is stainless steel cookware non-toxic?", answer: "Yes — 18/10 stainless steel is completely inert and non-reactive for virtually all cooking." },
     ],
-    featured: true, rank: 5, imageUrl: "",
+    featured: true, rank: 5, imageUrl: "https://m.media-amazon.com/images/I/61pEszkNHJL._AC_SX679_.jpg",
     category: ["stainless-steel", "non-toxic", "professional", "lifetime"],
   },
   {
