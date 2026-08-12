@@ -290,7 +290,7 @@ export const products: Product[] = [
     faq: [
       { question: "Why choose Valencia Pro over Paris Pro?", answer: "Choose Valencia Pro if you have an induction cooktop — the Magneto base is specifically engineered for induction efficiency." },
     ],
-    featured: true, rank: 13, imageUrl: "",
+    featured: true, rank: 13, imageUrl: "https://m.media-amazon.com/images/I/81DoJ2iCUPL._AC_SL1500_.jpg",
     category: ["ceramic", "non-toxic", "induction", "set"],
   },
   {
