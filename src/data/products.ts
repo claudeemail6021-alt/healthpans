@@ -206,7 +206,7 @@ export const products: Product[] = [
     faq: [
       { question: "How does Lodge compare to Le Creuset?", answer: "Both use enameled cast iron and are completely non-toxic. Le Creuset has a thicker enamel and lifetime warranty. Lodge offers 90% of the performance for 20-30% of the price." },
     ],
-    featured: true, rank: 9, imageUrl: "",
+    featured: true, rank: 9, imageUrl: "https://m.media-amazon.com/images/I/81VnhtC5VYL._AC_SX679_.jpg",
     category: ["dutch-oven", "enameled-cast-iron", "non-toxic", "made-in-usa"],
   },
   {
